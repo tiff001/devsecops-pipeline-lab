@@ -1,4 +1,4 @@
-const apiKey = "sk_live_51Hxxxxxxxxxxxxxxxxxxxxxxxxx"; // secreto de prueba, se borra después
+
 
 function calculateTotal(price, tax) { 
   return price + tax; 
@@ -10,7 +10,7 @@ function getUserName(user) {
 } 
   
 function validateRange(value, min = 0, max = 120) { 
-  return value >= min && value <= max; 
+  return value >= min && value <= max;  
 } 
   
 module.exports = { calculateTotal, getUserName, validateRange }; 
