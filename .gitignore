@@ -4,3 +4,4 @@
 *.tfvars
 node_modules/ 
 coverage/ .DS_Store
+!environments/dev/terraform.tfstate
